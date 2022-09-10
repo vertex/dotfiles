@@ -88,6 +88,11 @@ ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 
+if [ -f "$HOME/.zshrc.local"  ]; then
+    source $HOME/.zshrc.local
+fi
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
