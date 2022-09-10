@@ -3,7 +3,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export GOPATH=$HOME/src/golang # go working with zsh, src: https://stackoverflow.com/questions/42614380/go-install-not-working-with-zsh
+export GOPATH=$HOME/src/go # go working with zsh, src: https://stackoverflow.com/questions/42614380/go-install-not-working-with-zsh
 export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH

@@ -2,8 +2,12 @@
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 mkdir -p $HOME/tmp
 TMPDIR=$HOME/tmp
+wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz -P $TMPDIR
 mkdir -p $TMPDIR/dotfiles
 mkdir -p $HOME/src
+
+tar xzf $TMPDIR/go1.19.1.linux-amd64.tar.gz -C $HOME/src/
+
 for DOTFILE in .bashrc .zshrc .vimrc .nbrc .tmux.conf
 do
 	mv $HOME/$DOTFILE $TMPDIR/dotfiles/$DOTFILE
