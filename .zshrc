@@ -11,6 +11,11 @@ export PATH=$PATH:$GOBIN
 export PATH=$PATH:$GOROOT/bin
 
 alias bat='batcat'
+alias ga='git add .'
+alias gss='git status'
+alias gc='git commit'
+alias gp='git push'
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
