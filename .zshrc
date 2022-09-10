@@ -7,6 +7,7 @@ export GOPATH=$HOME/src/go # go working with zsh, src: https://stackoverflow.com
 export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOBIN
 export PATH=$PATH:$GOROOT/bin
 
 alias bat='batcat'
