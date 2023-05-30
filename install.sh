@@ -1,5 +1,11 @@
 #!/bin/bash
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+if [[ ! -f "$HOME/.oh-my-zsh" ]]; then
+	echo Installing Oh-My-Zsh
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+
 mkdir -p $HOME/tmp
 TMPDIR=$HOME/tmp
 wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz -P $TMPDIR
