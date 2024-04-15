@@ -10,6 +10,7 @@ export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOBIN
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$GOROOT/bin:$HOME/bin
 
 alias bat='batcat'
 alias ga='git add .'
@@ -17,6 +18,9 @@ alias gss='git status'
 alias gc='git commit'
 alias gp='git push'
 alias leave='tmux detach'
+alias gp='git push --force-with-lease'
+
+alias sshl='ssh -p 22 -i ~/.ssh/id_rsa -l bryon.keck.local'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -83,9 +87,9 @@ ZSH_THEME="dst"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux)
+plugins=(git)
 
-ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART=false
 
 source $ZSH/oh-my-zsh.sh
 source ~/src/misc/zsh-autocomplete/zsh-autocomplete.plugin.zsh
@@ -242,3 +246,22 @@ fi
 # To initialize zoxide, add this to your configuration (usually ~/.zshrc):
 #
 eval "$(zoxide init zsh)"
+#export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+#export PATH="$PATH:$HOME/.rvm/bin"
+
+autoload -U +X bashcompinit && bashcompinit 
+autoload -U +X compinit && compinit 
+
+# bun completions
+[ -s "/Users/bryon.keck/.bun/_bun" ] && source "/Users/bryon.keck/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
