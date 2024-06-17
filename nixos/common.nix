@@ -24,7 +24,7 @@
     colima
     lazydocker
     alejandra
-    mako
+    libnotify
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
