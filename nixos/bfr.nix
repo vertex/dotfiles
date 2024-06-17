@@ -1,15 +1,16 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, ... }:
-
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      <nixos-hardware/framework/16-inch/7040-amd>
-      ./common.nix
-    ];
+  config,
+  pkgs,
+  ...
+}: {
+  imports = [
+    # Include the results of the hardware scan.
+    <nixos-hardware/framework/16-inch/7040-amd>
+    ./common.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -48,7 +49,7 @@
   # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
 
-  # fwupd is a simple daemon allowing you to update some devices' firmware, including UEFI for several machines. 
+  # fwupd is a simple daemon allowing you to update some devices' firmware, including UEFI for several machines.
   # https://wiki.nixos.org/wiki/Fwupd
   services.fwupd.enable = true;
   # Enable the KDE Plasma Desktop Environment.
@@ -85,10 +86,10 @@
   users.users.vertex = {
     isNormalUser = true;
     description = "Bryon Keck";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = ["networkmanager" "wheel"];
     packages = with pkgs; [
       kdePackages.kate
-    #  thunderbird
+      #  thunderbird
     ];
   };
 
@@ -127,5 +128,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.05"; # Did you read the comment?
-
 }
