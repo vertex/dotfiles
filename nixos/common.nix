@@ -24,7 +24,7 @@
     colima
     lazydocker
     alejandra
-    steam
+    mako
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
