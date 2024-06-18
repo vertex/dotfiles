@@ -46,6 +46,7 @@
     lazydocker
     libnotify
     neovim
+    nextcloud-client
     nixFlakes
     meslo-lg # fonti
     meslo-lgs-nf
