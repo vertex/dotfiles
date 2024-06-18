@@ -36,6 +36,7 @@
     nixFlakes
     mise
     pinta
+    steam
     ulauncher
     vim
     vlc
