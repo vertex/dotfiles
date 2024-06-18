@@ -4,29 +4,43 @@
 {
   config,
   pkgs,
+  #stdenv,
   ...
 }: {
   # Set your time zone.
   time.timeZone = "America/Phoenix";
+
   # Install firefox.
   programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    nixFlakes
-    wget
-    neovim
-    vim
+    alacritty
+    alejandra
+    colima
     git
     lazygit
-    colima
     lazydocker
-    alejandra
     libnotify
+    neovim
+    nixFlakes
+    vim
+    wget
+    zellij
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
+
+  /*
+    stdenv.mkDerivation = {
+    name = "custom-scripts";
+    src = ./.;
+    phases = ["installPhase"];
+    installPhase = "mkdir -p $out/bin; cp -r $src $out/bin";
+  };
+  */
 }
