@@ -39,6 +39,7 @@
     fzf
     gcc
     gum
+    gnumake
     git
     inconsolata-nerdfont
     jetbrains-mono # font
