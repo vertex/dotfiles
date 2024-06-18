@@ -36,6 +36,7 @@
     ulauncher
     vim
     wget
+    wmctrl
     zellij
     zoxide
   ];
