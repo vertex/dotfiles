@@ -29,15 +29,18 @@
     colima
     eza
     fastfetch
+    fira # FiraMono and sans
     flameshot
     fzf
     gum
     git
+    jetbrains-mono # font
     lazygit
     lazydocker
     libnotify
     neovim
     nixFlakes
+    meslo-lg
     mise
     pinta
     plocate
