@@ -26,6 +26,8 @@
     bat
     btop
     cascadia-code
+    cl
+    clang
     colima
     eza
     fastfetch
@@ -33,6 +35,7 @@
     fira-code-nerdfont
     flameshot
     fzf
+    gcc
     gum
     git
     inconsolata-nerdfont
@@ -58,6 +61,7 @@
     wget
     wmctrl
     zellij
+    zig
     zoxide
   ];
   programs.neovim.enable = true;
