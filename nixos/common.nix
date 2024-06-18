@@ -26,6 +26,7 @@
     cascadia-code
     colima
     eza
+    flameshot
     fzf
     git
     lazygit
@@ -33,8 +34,11 @@
     libnotify
     neovim
     nixFlakes
+    mise
+    pinta
     ulauncher
     vim
+    vlc
     wget
     wmctrl
     zellij
