@@ -30,7 +30,6 @@
     clang
     colima
     docker
-    elixir
     elixir-ls
     eza
     fastfetch
