@@ -19,8 +19,11 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    _1password
+    _1password-gui
     alacritty
     alejandra
+    cascadia-code
     colima
     eza
     fzf
@@ -30,6 +33,7 @@
     libnotify
     neovim
     nixFlakes
+    ulauncher
     vim
     wget
     zellij
