@@ -56,6 +56,7 @@
     python3
     pinta
     plocate
+    ruby_3_3
     ripgrep
     steam
     tailscale
