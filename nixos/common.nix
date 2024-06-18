@@ -39,8 +39,9 @@
     lazydocker
     libnotify
     neovim
+    nerdfonts
     nixFlakes
-    meslo-lg
+    meslo-lg # font
     mise
     pinta
     plocate
