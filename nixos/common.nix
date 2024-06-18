@@ -22,6 +22,8 @@
     alacritty
     alejandra
     colima
+    eza
+    fzf
     git
     lazygit
     lazydocker
@@ -31,6 +33,7 @@
     vim
     wget
     zellij
+    zoxide
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
