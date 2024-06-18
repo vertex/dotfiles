@@ -62,6 +62,7 @@
     tailscale
     typora
     ulauncher
+    virtualbox
     vim
     vimPlugins.LazyVim
     vlc
