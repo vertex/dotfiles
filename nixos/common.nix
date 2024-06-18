@@ -53,6 +53,7 @@
     typora
     ulauncher
     vim
+    vimPlugins.LazyVim
     vlc
     wget
     wmctrl
