@@ -37,6 +37,7 @@
     mise
     pinta
     steam
+    tailscale
     ulauncher
     vim
     vlc
