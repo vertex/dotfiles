@@ -29,6 +29,8 @@
     cl
     clang
     colima
+    elixir
+    elixir-ls
     eza
     fastfetch
     fira # FiraMono and sans
