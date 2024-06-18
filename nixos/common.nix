@@ -55,6 +55,9 @@
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
+  fonts.packages = with pkgs; [
+    (nerdfonts.override {fonts = ["FiraCode" "DroidSansMono"];})
+  ];
 
   /*
     stdenv.mkDerivation = {
