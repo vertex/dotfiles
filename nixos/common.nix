@@ -23,9 +23,12 @@
     _1password-gui
     alacritty
     alejandra
+    bat
+    btop
     cascadia-code
     colima
     eza
+    fastfetch
     flameshot
     fzf
     gum
@@ -37,6 +40,8 @@
     nixFlakes
     mise
     pinta
+    plocate
+    ripgrep
     steam
     tailscale
     ulauncher
