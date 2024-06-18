@@ -44,6 +44,7 @@
     ripgrep
     steam
     tailscale
+    typora
     ulauncher
     vim
     vlc
