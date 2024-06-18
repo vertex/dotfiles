@@ -28,6 +28,7 @@
     eza
     flameshot
     fzf
+    gum
     git
     lazygit
     lazydocker
