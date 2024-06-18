@@ -30,18 +30,20 @@
     eza
     fastfetch
     fira # FiraMono and sans
+    fira-code-nerdfont
     flameshot
     fzf
     gum
     git
+    inconsolata-nerdfont
     jetbrains-mono # font
     lazygit
     lazydocker
     libnotify
     neovim
-    nerdfonts
     nixFlakes
-    meslo-lg # font
+    meslo-lg # fonti
+    meslo-lgs-nf
     mise
     pinta
     plocate
