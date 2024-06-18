@@ -30,6 +30,7 @@
     clang
     colima
     docker
+    elixir
     elixir-ls
     eza
     fastfetch
@@ -49,9 +50,10 @@
     neovim
     nextcloud-client
     nixFlakes
+    nodejs_22
     meslo-lg # fonti
     meslo-lgs-nf
-    mise
+    python3
     pinta
     plocate
     ripgrep
@@ -67,7 +69,6 @@
     zellij
     zig
     zoxide
-    zlib
   ];
   programs.neovim.enable = true;
   programs.neovim.defaultEditor = true;
