@@ -75,10 +75,10 @@
 
   # Enable virtualization
   boot.kernelModules = ["kvm-amd" "kvm-intel"];
-  #virtualisation.libvirtd.enable = true;
-  #virtualisation.virtualbox.host.enable = true;
-  #users.extraGroups.vboxusers.members = [ "vertex" ];
-  #virtualisation.virtualbox.guest.enable = true;
+  virtualisation.libvirtd.enable = true;
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = ["vertex"];
+  virtualisation.virtualbox.guest.enable = true;
   #virtualisation.virtualbox.guest.x11 = true;
 
   programs.neovim.enable = true;
