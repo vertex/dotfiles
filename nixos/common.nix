@@ -74,7 +74,7 @@
   ];
 
   # Enable virtualization
-  #boot.kernelModules = [ "kvm-amd", "kvm-intel" ];
+  boot.kernelModules = ["kvm-amd" "kvm-intel"];
   #virtualisation.libvirtd.enable = true;
   #virtualisation.virtualbox.host.enable = true;
   #users.extraGroups.vboxusers.members = [ "vertex" ];
