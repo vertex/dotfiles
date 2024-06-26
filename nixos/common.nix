@@ -49,6 +49,7 @@
     jetbrains-mono # font
     lazygit
     lazydocker
+    librewolf
     libnotify
     neovim
     nextcloud-client
