@@ -52,9 +52,6 @@
   # fwupd is a simple daemon allowing you to update some devices' firmware, including UEFI for several machines.
   # https://wiki.nixos.org/wiki/Fwupd
   services.fwupd.enable = true;
-  # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb.layout = "us";
