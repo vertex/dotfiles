@@ -68,6 +68,7 @@
     fzf
     gcc
     gum
+    gnomeExtensions.just-perfection
     gnumake
     git
     inconsolata-nerdfont
