@@ -68,6 +68,7 @@
     fzf
     gcc
     gum
+    gnome3.gnome-tweaks
     gnomeExtensions.just-perfection
     gnumake
     git
