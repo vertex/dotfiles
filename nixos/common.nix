@@ -78,6 +78,7 @@
     lazydocker
     librewolf
     libnotify
+    linuxKernel.kernels.linux_zen
     neovim
     nextcloud-client
     nixFlakes
