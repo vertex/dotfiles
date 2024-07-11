@@ -1,0 +1,710 @@
+building Nix...
+building the system configuration...
+trace: warning: The option `services.xserver.xkbVariant' defined in `/home/vertex/.config/dotfiles/nixos/port.nix' has been renamed to `services.xserver.xkb.variant'.
+trace: warning: The option `services.xserver.layout' defined in `/home/vertex/.config/dotfiles/nixos/port.nix' has been renamed to `services.xserver.xkb.layout'.
+these 30 derivations will be built:
+  /nix/store/27qdr6vq76mgs278snk1ks6l0bi15kjz-hwdb.bin.drv
+  /nix/store/mfx26slk668hkv240833bwb7z23s955k-system-path.drv
+  /nix/store/2kijfacw81jz6x15l20qphj35asxa9i6-set-environment.drv
+  /nix/store/x900vwx1ah3vfkci646pvhbnmrxsv92l-dbus-1.drv
+  /nix/store/zl3i4a5fzzbynhsr87nrm96x0hcida1n-X-Restart-Triggers-dbus.drv
+  /nix/store/4x1v535phvsw2fhs6p5ixm59h6z5218n-unit-dbus.service.drv
+  /nix/store/c3vjdcic1gmn645ls2g9jjlv5p7g76qs-nixos.conf.drv
+  /nix/store/x7k96j4c9vwk1zzrc4iz8cr5agl3f1j3-X-Restart-Triggers-systemd-modules-load.drv
+  /nix/store/5y4pnhik70sfbgd35gsg44px953bb4j6-unit-systemd-modules-load.service.drv
+  /nix/store/a6l9qlya83zf6xi4s7281qa47malx689-unit-accounts-daemon.service.drv
+  /nix/store/1przw7s12pk9baj69k0na9b67caf5cnm-X-Restart-Triggers-systemd-udevd.drv
+  /nix/store/c03ixlk9hkgwf5pbiq5fyfnml5v0yq5w-unit-systemd-udevd.service.drv
+  /nix/store/b39rw1nh8vbwhl4vxx5kibhjaghl72j8-X-Restart-Triggers-polkit.drv
+  /nix/store/ia296s754gcdgk3n10bwc753w1phvn1w-unit-polkit.service.drv
+  /nix/store/n0aqrr4vlr9pwz0jmvbahnkzc6iaf00z-unit-system76-firmware-daemon.service.drv
+  /nix/store/zwnrlvnkh2bvab1ingdbv3ib61d0spgr-unit-system76-power.service.drv
+  /nix/store/34qyp89mz69mlcq3swnd92c2271r9i9j-system-units.drv
+  /nix/store/8633x57n13119sy4zy3iwrhfi7lxzs46-udev-rules.drv
+  /nix/store/sy3q4b4dzhyqxr54q3386k3kqgkkc9li-unit-dbus.service.drv
+  /nix/store/98cwnzwxq6z4lz3djbpgcklh9nrishiw-user-units.drv
+  /nix/store/g669zdpi7yls1zmbyb5zl3zhs54i9wy2-etc-profile.drv
+  /nix/store/qhcmzmrxrc56n0rq82wqpwavvym24fxv-etc-pam-environment.drv
+  /nix/store/w4nkmv01g3ra24vyp5bf22g6b1jiablh-system-shutdown.drv
+  /nix/store/wjcjljbz4xlga52jljjjsm6bxdnm95mk-system-generators.drv
+  /nix/store/1ls2zxik737pdfp2b3miyvcpfsxpynxd-etc.drv
+  /nix/store/ma8d2qj0kr219rxkwzfba162ysm6nq84-linux-6.6.33-modules.drv
+  /nix/store/nflangmimlhznqqrldygp29147g582aj-linux-6.6.33-modules-shrunk.drv
+  /nix/store/bz4yb3fy6abqpm2iyyzn45px499zqqb8-initrd-linux-6.6.33.drv
+  /nix/store/i3wj5y1zs5y93lj0qjxpq5m9204rl2hc-boot.json.drv
+  /nix/store/hqgkgwy3grmkhsfm7fakpawwrvws5mpd-nixos-system-port-24.05.1503.752c634c09ce.drv
+these 7 paths will be fetched (2.46 MiB download, 11.13 MiB unpacked):
+  /nix/store/h3yik95zdqkpg38vwrqfrn17zj23c1z5-efibootmgr-18
+  /nix/store/xvpan4lvaz033bksbwy57di2jl2q9qzy-efivar-38
+  /nix/store/7xjhsc3jgy25lr0vi45571y7kyj6kqgb-system76-firmware-1.0.50
+  /nix/store/8493q5c63fp4p1hqwlry4sdalr0h87gs-system76-io-module-1.0.2-6.6.33
+  /nix/store/2kc0bmah0z98nyjihlg5i75gcjrdxfaz-system76-module-1.0.13-6.6.33
+  /nix/store/1hp7qky8vpqzs8gj9dpr69l4hgcnjrj4-system76-module-1.0.13-6.9.2
+  /nix/store/4z7d10mlrl2fsn8z7kd6r5k0mnjhm7w0-system76-power-1.1.23
+copying path '/nix/store/8493q5c63fp4p1hqwlry4sdalr0h87gs-system76-io-module-1.0.2-6.6.33' from 'https://cache.nixos.org'...
+copying path '/nix/store/2kc0bmah0z98nyjihlg5i75gcjrdxfaz-system76-module-1.0.13-6.6.33' from 'https://cache.nixos.org'...
+copying path '/nix/store/1hp7qky8vpqzs8gj9dpr69l4hgcnjrj4-system76-module-1.0.13-6.9.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/4z7d10mlrl2fsn8z7kd6r5k0mnjhm7w0-system76-power-1.1.23' from 'https://cache.nixos.org'...
+building '/nix/store/c3vjdcic1gmn645ls2g9jjlv5p7g76qs-nixos.conf.drv'...
+copying path '/nix/store/xvpan4lvaz033bksbwy57di2jl2q9qzy-efivar-38' from 'https://cache.nixos.org'...
+building '/nix/store/wjcjljbz4xlga52jljjjsm6bxdnm95mk-system-generators.drv'...
+building '/nix/store/w4nkmv01g3ra24vyp5bf22g6b1jiablh-system-shutdown.drv'...
+copying path '/nix/store/h3yik95zdqkpg38vwrqfrn17zj23c1z5-efibootmgr-18' from 'https://cache.nixos.org'...
+building '/nix/store/x7k96j4c9vwk1zzrc4iz8cr5agl3f1j3-X-Restart-Triggers-systemd-modules-load.drv'...
+building '/nix/store/1przw7s12pk9baj69k0na9b67caf5cnm-X-Restart-Triggers-systemd-udevd.drv'...
+building '/nix/store/27qdr6vq76mgs278snk1ks6l0bi15kjz-hwdb.bin.drv'...
+building '/nix/store/ma8d2qj0kr219rxkwzfba162ysm6nq84-linux-6.6.33-modules.drv'...
+building '/nix/store/8633x57n13119sy4zy3iwrhfi7lxzs46-udev-rules.drv'...
+building '/nix/store/zwnrlvnkh2bvab1ingdbv3ib61d0spgr-unit-system76-power.service.drv'...
+Adding hwdb files for package /nix/store/xjiifrz7ha6s29gp0p0j3w0155phxmia-systemd-255.6
+Adding hwdb files for package /nix/store/6mvybfpfzkb14ha6jz1gy11106wdc33f-mutter-46.2
+Adding hwdb files for package /nix/store/jr0iyw34cjr79xg2pg9bn3fbghga22nq-ipv6-privacy-extensions.rules
+Adding hwdb files for package /nix/store/7cl97maf3pjk7913b7nd34vnrnzjgvba-ipv6-privacy-extensions.rules
+Adding hwdb files for package /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23
+Adding hwdb files for package /nix/store/2fk5lmnm20r2a9s49pjxzzs4z4849501-bcache-tools-1.0.8
+Adding hwdb files for package /nix/store/r9ijdg4f5dbi27ni53ms73j3cii3knd7-colord-1.4.6
+Adding hwdb files for package /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0
+Adding hwdb files for package /nix/store/mlwlbq4cgi28h4j69s3brqql9d7rlcqm-networkmanager-1.46.0
+Adding hwdb files for package /nix/store/vl03d7dlrz3ym76qk4r9f40axdjvkl4z-NetworkManager-fortisslvpn-gnome-1.4.0
+Adding hwdb files for package /nix/store/ndkqs6dyk8aw7h5bxc9kpkq90wrk1qn4-NetworkManager-iodine-gnome-unstable-2019-11-05
+Adding hwdb files for package /nix/store/nz86x4a21lfbx22aqfla5ibkib1h5634-NetworkManager-l2tp-gnome-1.20.16
+Adding hwdb files for package /nix/store/j5xgnm8kjy77h57npj9h0d16vc511dxj-NetworkManager-openconnect-1.2.10
+Adding hwdb files for package /nix/store/h76ax16j7710q7xi20q7lcjk4qqy8n9k-NetworkManager-openvpn-1.10.2
+Adding hwdb files for package /nix/store/j8rgq2myy9m37r00zzvyi6zjncbgkz6l-NetworkManager-vpnc-1.2.8
+Adding hwdb files for package /nix/store/ayjyczv7axqwvkw7bryv6w5kq1qdzry0-NetworkManager-sstp-gnome-1.3.2
+Adding hwdb files for package /nix/store/6h6j03grx6hsn7wv80x734zcxfididqw-wpa_supplicant-2.10
+Adding hwdb files for package /nix/store/d01alq9xv9smx9zss5ixm60xb2cm70iq-upower-1.90.4
+Adding hwdb files for package /nix/store/jwhf6ziqxqn2xgml2dlxhy53x947zjas-udisks-2.10.1
+Adding hwdb files for package /nix/store/yyjjh9nvzh815hiilpfrr37dbz5zlcxs-extra-udev-rules
+Adding hwdb files for package /nix/store/f067980qc13d51lkca6xdg1ysgll9mkd-extra-hwdb-file
+Adding hwdb files for package /nix/store/279k8iw3mb4hdsqxsw22xdym4ayh03ss-libinput-1.25.0
+Adding hwdb files for package /nix/store/9flz33fnckg3h912z07v754iy3f6mzfm-bolt-0.9.7
+Adding hwdb files for package /nix/store/7anyh20kwbivvpnbypch8mggf54df165-bluez-5.75
+Adding hwdb files for package /nix/store/0khvpgrz31vy1d1zyx5aiwcmapby0siw-system-config-printer-1.5.18
+Adding hwdb files for package /nix/store/yrhd00i06g1mc8pykv7yb19mzb4f9bzl-pipewire-1.0.6
+Adding hwdb files for package /nix/store/vh5x2ivg9m8aadxam4lc7xfa9yknra0j-libmtp-1.1.21
+Adding hwdb files for package /nix/store/im8pr2xmrvjwh0il8hpm6am5wjjisnmq-gnome-settings-daemon-46.0
+Adding hwdb files for package /nix/store/2kc0bmah0z98nyjihlg5i75gcjrdxfaz-system76-module-1.0.13-6.6.33
+Adding hwdb files for package /nix/store/8493q5c63fp4p1hqwlry4sdalr0h87gs-system76-io-module-1.0.2-6.6.33
+Generating hwdb database...
+created 26 symlinks in user environment
+kernel version is 6.6.33
+Adding rules for package /nix/store/6mvybfpfzkb14ha6jz1gy11106wdc33f-mutter-46.2
+Copying /nix/store/6mvybfpfzkb14ha6jz1gy11106wdc33f-mutter-46.2/lib/udev/rules.d/61-mutter.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/61-mutter.rules
+Adding rules for package /nix/store/jr0iyw34cjr79xg2pg9bn3fbghga22nq-ipv6-privacy-extensions.rules
+Copying /nix/store/jr0iyw34cjr79xg2pg9bn3fbghga22nq-ipv6-privacy-extensions.rules/etc/udev/rules.d/98-ipv6-privacy-extensions.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/98-ipv6-privacy-extensions.rules
+Adding rules for package /nix/store/7cl97maf3pjk7913b7nd34vnrnzjgvba-ipv6-privacy-extensions.rules
+Copying /nix/store/7cl97maf3pjk7913b7nd34vnrnzjgvba-ipv6-privacy-extensions.rules/etc/udev/rules.d/99-ipv6-privacy-extensions.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/99-ipv6-privacy-extensions.rules
+Adding rules for package /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23
+Copying /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23/lib/udev/rules.d/10-dm.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/10-dm.rules
+Copying /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23/lib/udev/rules.d/11-dm-lvm.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/11-dm-lvm.rules
+Copying /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23/lib/udev/rules.d/13-dm-disk.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/13-dm-disk.rules
+copying path '/nix/store/7xjhsc3jgy25lr0vi45571y7kyj6kqgb-system76-firmware-1.0.50' from 'https://cache.nixos.org'...
+building '/nix/store/5y4pnhik70sfbgd35gsg44px953bb4j6-unit-systemd-modules-load.service.drv'...
+building '/nix/store/c03ixlk9hkgwf5pbiq5fyfnml5v0yq5w-unit-systemd-udevd.service.drv'...
+Copying /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23/lib/udev/rules.d/69-dm-lvm.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/69-dm-lvm.rules
+Copying /nix/store/ax94j8ci0sxbj2rwc0dafw9z8ydjdk16-lvm2-2.03.23/lib/udev/rules.d/95-dm-notify.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/95-dm-notify.rules
+Adding rules for package /nix/store/2fk5lmnm20r2a9s49pjxzzs4z4849501-bcache-tools-1.0.8
+Copying /nix/store/2fk5lmnm20r2a9s49pjxzzs4z4849501-bcache-tools-1.0.8/lib/udev/rules.d/69-bcache.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/69-bcache.rules
+Adding rules for package /nix/store/r9ijdg4f5dbi27ni53ms73j3cii3knd7-colord-1.4.6
+Copying /nix/store/r9ijdg4f5dbi27ni53ms73j3cii3knd7-colord-1.4.6/lib/udev/rules.d/69-cd-sensors.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/69-cd-sensors.rules
+Copying /nix/store/r9ijdg4f5dbi27ni53ms73j3cii3knd7-colord-1.4.6/lib/udev/rules.d/95-cd-devices.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/95-cd-devices.rules
+Adding rules for package /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-broadmobi-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-broadmobi-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-cinterion-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-cinterion-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-dell-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-dell-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-dlink-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-dlink-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-ericsson-mbm.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-ericsson-mbm.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-fibocom-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-fibocom-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-foxconn-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-foxconn-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-gosuncn-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-gosuncn-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-haier-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-haier-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-huawei-net-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-huawei-net-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-linktop-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-linktop-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-longcheer-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-longcheer-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-mtk-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-mtk-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-nokia-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-nokia-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-qcom-soc.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-qcom-soc.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-quectel-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-quectel-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-sierra.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-sierra.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-simtech-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-simtech-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-telit-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-telit-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-tplink-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-tplink-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-ublox-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-ublox-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-x22x-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-x22x-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/77-mm-zte-port-types.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/77-mm-zte-port-types.rules
+Copying /nix/store/fhgcb4y1rfgrdkha70nww4jdhyb7s8ma-modemmanager-1.22.0/lib/udev/rules.d/80-mm-candidate.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/80-mm-candidate.rules
+Adding rules for package /nix/store/mlwlbq4cgi28h4j69s3brqql9d7rlcqm-networkmanager-1.46.0
+Copying /nix/store/mlwlbq4cgi28h4j69s3brqql9d7rlcqm-networkmanager-1.46.0/lib/udev/rules.d/84-nm-drivers.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/84-nm-drivers.rules
+Copying /nix/store/mlwlbq4cgi28h4j69s3brqql9d7rlcqm-networkmanager-1.46.0/lib/udev/rules.d/85-nm-unmanaged.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/85-nm-unmanaged.rules
+Copying /nix/store/mlwlbq4cgi28h4j69s3brqql9d7rlcqm-networkmanager-1.46.0/lib/udev/rules.d/90-nm-thunderbolt.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/90-nm-thunderbolt.rules
+Adding rules for package /nix/store/vl03d7dlrz3ym76qk4r9f40axdjvkl4z-NetworkManager-fortisslvpn-gnome-1.4.0
+Adding rules for package /nix/store/ndkqs6dyk8aw7h5bxc9kpkq90wrk1qn4-NetworkManager-iodine-gnome-unstable-2019-11-05
+Adding rules for package /nix/store/nz86x4a21lfbx22aqfla5ibkib1h5634-NetworkManager-l2tp-gnome-1.20.16
+Adding rules for package /nix/store/j5xgnm8kjy77h57npj9h0d16vc511dxj-NetworkManager-openconnect-1.2.10
+Adding rules for package /nix/store/h76ax16j7710q7xi20q7lcjk4qqy8n9k-NetworkManager-openvpn-1.10.2
+Adding rules for package /nix/store/j8rgq2myy9m37r00zzvyi6zjncbgkz6l-NetworkManager-vpnc-1.2.8
+Adding rules for package /nix/store/ayjyczv7axqwvkw7bryv6w5kq1qdzry0-NetworkManager-sstp-gnome-1.3.2
+Adding rules for package /nix/store/6h6j03grx6hsn7wv80x734zcxfididqw-wpa_supplicant-2.10
+Adding rules for package /nix/store/d01alq9xv9smx9zss5ixm60xb2cm70iq-upower-1.90.4
+Copying /nix/store/d01alq9xv9smx9zss5ixm60xb2cm70iq-upower-1.90.4/lib/udev/rules.d/95-upower-hid.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/95-upower-hid.rules
+Copying /nix/store/d01alq9xv9smx9zss5ixm60xb2cm70iq-upower-1.90.4/lib/udev/rules.d/95-upower-wup.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/95-upower-wup.rules
+Adding rules for package /nix/store/jwhf6ziqxqn2xgml2dlxhy53x947zjas-udisks-2.10.1
+Copying /nix/store/jwhf6ziqxqn2xgml2dlxhy53x947zjas-udisks-2.10.1/lib/udev/rules.d/80-udisks2.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/80-udisks2.rules
+Adding rules for package /nix/store/yyjjh9nvzh815hiilpfrr37dbz5zlcxs-extra-udev-rules
+Copying /nix/store/yyjjh9nvzh815hiilpfrr37dbz5zlcxs-extra-udev-rules/etc/udev/rules.d/99-local.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/99-local.rules
+Adding rules for package /nix/store/f067980qc13d51lkca6xdg1ysgll9mkd-extra-hwdb-file
+Adding rules for package /nix/store/279k8iw3mb4hdsqxsw22xdym4ayh03ss-libinput-1.25.0
+Copying /nix/store/279k8iw3mb4hdsqxsw22xdym4ayh03ss-libinput-1.25.0/lib/udev/rules.d/80-libinput-device-groups.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/80-libinput-device-groups.rules
+Copying /nix/store/279k8iw3mb4hdsqxsw22xdym4ayh03ss-libinput-1.25.0/lib/udev/rules.d/90-libinput-fuzz-override.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/90-libinput-fuzz-override.rules
+Adding rules for package /nix/store/9flz33fnckg3h912z07v754iy3f6mzfm-bolt-0.9.7
+Copying /nix/store/9flz33fnckg3h912z07v754iy3f6mzfm-bolt-0.9.7/lib/udev/rules.d/90-bolt.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/90-bolt.rules
+Adding rules for package /nix/store/7anyh20kwbivvpnbypch8mggf54df165-bluez-5.75
+Copying /nix/store/7anyh20kwbivvpnbypch8mggf54df165-bluez-5.75/lib/udev/rules.d/97-hid2hci.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/97-hid2hci.rules
+Adding rules for package /nix/store/0khvpgrz31vy1d1zyx5aiwcmapby0siw-system-config-printer-1.5.18
+Copying /nix/store/0khvpgrz31vy1d1zyx5aiwcmapby0siw-system-config-printer-1.5.18/etc/udev/rules.d/70-printers.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/70-printers.rules
+Adding rules for package /nix/store/yrhd00i06g1mc8pykv7yb19mzb4f9bzl-pipewire-1.0.6
+Copying /nix/store/yrhd00i06g1mc8pykv7yb19mzb4f9bzl-pipewire-1.0.6/lib/udev/rules.d/90-pipewire-alsa.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/90-pipewire-alsa.rules
+Adding rules for package /nix/store/vh5x2ivg9m8aadxam4lc7xfa9yknra0j-libmtp-1.1.21
+Copying /nix/store/vh5x2ivg9m8aadxam4lc7xfa9yknra0j-libmtp-1.1.21/lib/udev/rules.d/69-libmtp.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/69-libmtp.rules
+Adding rules for package /nix/store/im8pr2xmrvjwh0il8hpm6am5wjjisnmq-gnome-settings-daemon-46.0
+Copying /nix/store/im8pr2xmrvjwh0il8hpm6am5wjjisnmq-gnome-settings-daemon-46.0/lib/udev/rules.d/61-gnome-settings-daemon-rfkill.rules to /nix/store/90d7zg6mmm1qf2j2hk35zyy3i73qmlvb-udev-rules/61-gnome-settings-daemon-rfkill.rules
+Adding rules for package /nix/store/2kc0bmah0z98nyjihlg5i75gcjrdxfaz-system76-module-1.0.13-6.6.33
+Adding rules for package /nix/store/8493q5c63fp4p1hqwlry4sdalr0h87gs-system76-io-module-1.0.2-6.6.33
+Checking that all programs called by relative paths in udev rules exist in /nix/store/xjiifrz7ha6s29gp0p0j3w0155phxmia-systemd-255.6/lib/udev... OK
+Checking that all programs called by absolute paths in udev rules exist... grep: warning: stray \ before /
+OK
+
+building '/nix/store/mfx26slk668hkv240833bwb7z23s955k-system-path.drv'...
+building '/nix/store/n0aqrr4vlr9pwz0jmvbahnkzc6iaf00z-unit-system76-firmware-daemon.service.drv'...
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/ld' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/ld'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/ld.gold' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/ld.gold'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/cc' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/cc'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/strip' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/strip'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/cpp' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/cpp'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/c++' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/c++'
+warning: collision between `/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin/ld.bfd' and `/nix/store/mzhqknx2mc94jdz4n320hn1lml86398y-clang-wrapper-17.0.6/bin/ld.bfd'
+warning: collision between `/nix/store/1hp7qky8vpqzs8gj9dpr69l4hgcnjrj4-system76-module-1.0.13-6.9.2/lib/udev/hwdb.d/99-system76-dkms.hwdb' and `/nix/store/50xrn2r3za0dw2gi53am2r7gh2j8dzz3-system76-module-1.0.13-6.9.3/lib/udev/hwdb.d/99-system76-dkms.hwdb'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/.VirtualBox-wrapped' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/.VirtualBox-wrapped'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/VirtualBox' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/VirtualBox'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/VBoxManage' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/VBoxManage'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/VBoxSDL' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/VBoxSDL'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/VBoxBalloonCtrl' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/VBoxBalloonCtrl'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/bin/VBoxHeadless' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/bin/VBoxHeadless'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/40x40/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/40x40/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/24x24/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/256x256/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/16x16/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/128x128/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/96x96/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/72x72/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/32x32/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/48x48/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/20x20/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vmdk.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vmdk.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vdi.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vdi.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-hdd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-hdd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vbox-extpack.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vbox-extpack.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vbox.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vbox.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-ova.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-ova.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-ovf.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-ovf.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vhd.png' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/icons/hicolor/64x64/apps/virtualbox-vhd.png'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_uk.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_uk.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_sk.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_sk.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_de.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_de.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ru.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ru.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_lt.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_lt.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_cs.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_cs.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ca.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ca.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_sr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_sr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_fa.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_fa.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_sv.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_sv.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ru.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ru.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ro.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ro.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_sv.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_sv.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_fi.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_fi.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ca_VA.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ca_VA.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ro.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ro.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_pl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_pl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_sl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_sl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_zh_TW.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_zh_TW.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_cs.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_cs.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_it.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_it.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBoxAPI_ru.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBoxAPI_ru.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_he.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_he.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_pl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_pl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_gl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_gl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ka.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ka.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_gl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_gl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_el.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_el.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_hu.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_hu.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_en.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_en.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_eu.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_eu.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_lt.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_lt.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_fr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_fr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_sr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_sr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_fr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_fr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_da.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_da.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_pt.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_pt.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_km_KH.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_km_KH.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ja.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ja.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBoxAPI_tr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBoxAPI_tr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_he.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_he.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_es.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_es.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_km_KH.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_km_KH.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_da.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_da.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_hr_HR.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_hr_HR.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_pt_BR.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_pt_BR.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_fa.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_fa.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ko.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ko.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_zh_CN.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_zh_CN.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_th.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_th.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_hr_HR.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_hr_HR.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_it.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_it.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_tr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_tr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_uk.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_uk.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_id.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_id.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_es.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_es.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ko.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ko.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_zh_CN.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_zh_CN.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_en.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_en.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_pt_BR.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_pt_BR.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_th.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_th.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_pt.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_pt.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ka.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ka.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VBoxManageNls_ru.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VBoxManageNls_ru.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_nl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_nl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_sl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_sl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_fi.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_fi.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_eu.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_eu.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ja.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ja.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_tr.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_tr.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_nl.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_nl.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_de.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_de.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_hu.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_hu.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_zh_TW.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_zh_TW.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_bg.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_bg.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_bg.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_bg.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/debian_preseed.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/debian_preseed.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/fedora_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/fedora_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_nt5_unattended.sif' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_nt5_unattended.sif'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol_postinstall.sh' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol_postinstall.sh'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_util.exe' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_util.exe'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/suse_autoinstall.xml' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/suse_autoinstall.xml'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/redhat_postinstall.sh' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/redhat_postinstall.sh'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_response_files.rsp' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_response_files.rsp'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/lgw_postinstall.sh' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/lgw_postinstall.sh'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol8_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol8_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel3_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel3_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel4_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel4_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/debian_postinstall.sh' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/debian_postinstall.sh'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_postinstall.cmd' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_postinstall.cmd'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/lgw_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/lgw_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel5_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/rhel5_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/freebsd_postinstall.sh' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/freebsd_postinstall.sh'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/redhat67_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/redhat67_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/freebsd_installer.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/freebsd_installer.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol9_ks.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ol9_ks.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/Makefile.kmk' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/Makefile.kmk'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ubuntu_preseed.cfg' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/ubuntu_preseed.cfg'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_cid_install.cmd' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/os2_cid_install.cmd'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_nt6_unattended.xml' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/UnattendedTemplates/win_nt6_unattended.xml'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_id.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_id.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_el.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_el.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/VirtualBox_ca.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/VirtualBox_ca.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_ca_VA.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_ca_VA.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/virtualbox/qt_sk.qm' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/virtualbox/qt_sk.qm'
+warning: collision between `/nix/store/gagsb6qbl2jjszvmlb4vghsllw4y6bwj-virtualbox-7.0.14/share/applications/virtualbox.desktop' and `/nix/store/5wnai7j6lrxp1md3nr197cgyps6rlibn-virtualbox-7.0.14/share/applications/virtualbox.desktop'
+warning: collision between `/nix/store/g75c4k2igbd78dxszgz7dnffdzqj9q2r-mount.vboxsf/bin/mount.vboxsf' and `/nix/store/r329jy6xrj0sz1w64ack6d4laa01qv41-VirtualBox-GuestAdditions-7.0.14-6.6.33/bin/mount.vboxsf'
+created 18059 symlinks in user environment
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+gtk-update-icon-cache: Cache file created successfully.
+building '/nix/store/b39rw1nh8vbwhl4vxx5kibhjaghl72j8-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/x900vwx1ah3vfkci646pvhbnmrxsv92l-dbus-1.drv'...
+building '/nix/store/qhcmzmrxrc56n0rq82wqpwavvym24fxv-etc-pam-environment.drv'...
+building '/nix/store/2kijfacw81jz6x15l20qphj35asxa9i6-set-environment.drv'...
+building '/nix/store/a6l9qlya83zf6xi4s7281qa47malx689-unit-accounts-daemon.service.drv'...
+building '/nix/store/zl3i4a5fzzbynhsr87nrm96x0hcida1n-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/g669zdpi7yls1zmbyb5zl3zhs54i9wy2-etc-profile.drv'...
+building '/nix/store/ia296s754gcdgk3n10bwc753w1phvn1w-unit-polkit.service.drv'...
+building '/nix/store/4x1v535phvsw2fhs6p5ixm59h6z5218n-unit-dbus.service.drv'...
+building '/nix/store/sy3q4b4dzhyqxr54q3386k3kqgkkc9li-unit-dbus.service.drv'...
+building '/nix/store/34qyp89mz69mlcq3swnd92c2271r9i9j-system-units.drv'...
+building '/nix/store/98cwnzwxq6z4lz3djbpgcklh9nrishiw-user-units.drv'...
+building '/nix/store/1ls2zxik737pdfp2b3miyvcpfsxpynxd-etc.drv'...
+building '/nix/store/nflangmimlhznqqrldygp29147g582aj-linux-6.6.33-modules-shrunk.drv'...
+kernel version is 6.6.33
+root module: xhci_pci
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/base/firmware_loader/firmware_class.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-hcd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci-renesas.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci.ko.xz
+root module: nvme
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_generic.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc-t10dif.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64-rocksoft.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/block/t10-pi.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/common/nvme-common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/host/nvme-core.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/host/nvme.ko.xz
+root module: usb_storage
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/storage/usb-storage.ko.xz
+root module: sd_mod
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_generic.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc-t10dif.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64-rocksoft.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/block/t10-pi.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/sd_mod.ko.xz
+root module: rtsx_pci_sdmmc
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/mmc/core/mmc_core.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/misc/cardreader/rtsx_pci.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/mmc/host/rtsx_pci_sdmmc.ko.xz
+root module: ext2
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/fs/mbcache.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/fs/ext2/ext2.ko.xz
+root module: ext4
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/fs/jbd2/jbd2.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/fs/mbcache.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc16.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/crc32c-intel.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crc32c_generic.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/fs/ext4/ext4.ko.xz
+root module: dm_mod
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/dax/dax.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/md/dm-mod.ko.xz
+root module: dm_crypt
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/char/hw_random/rng-core.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/char/tpm/tpm.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/tee/tee.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/asn1_encoder.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/security/keys/trusted-keys/trusted.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/security/keys/encrypted-keys/encrypted-keys.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/dax/dax.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/md/dm-mod.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/md/dm-crypt.ko.xz
+root module: cryptd
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+root module: input_leds
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/leds/led-class.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/input-leds.ko.xz
+root module: aes
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crypto_simd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/aesni-intel.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/crypto/padlock-aes.ko.xz
+root module: aes_generic
+  builtin dependency: aes_generic
+root module: blowfish
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/blowfish_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/blowfish-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/blowfish_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/blowfish_generic.ko.xz
+root module: twofish
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/twofish_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/twofish_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-x86_64.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-x86_64-3way.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/twofish_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-x86_64-3way.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crypto_simd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/twofish-avx-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/twofish_common.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/twofish_generic.ko.xz
+root module: serpent
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crypto_simd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/serpent_generic.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/serpent-sse2-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crypto_simd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/serpent_generic.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/serpent-avx-x86_64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cryptd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crypto_simd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/serpent_generic.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/serpent-avx-x86_64.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/serpent-avx2.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/serpent_generic.ko.xz
+root module: cbc
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/cbc.ko.xz
+root module: xts
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/ecb.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/xts.ko.xz
+root module: lrw
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crypto/gf128mul.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/ecb.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/lrw.ko.xz
+root module: sha1
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/sha1-ssse3.ko.xz
+root module: sha256
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/sha256-ssse3.ko.xz
+root module: sha512
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/sha512-ssse3.ko.xz
+root module: af_alg
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/af_alg.ko.xz
+root module: algif_skcipher
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/af_alg.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/algif_skcipher.ko.xz
+root module: ecb
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/ecb.ko.xz
+root module: ahci
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libahci.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/ahci.ko.xz
+root module: sata_nv
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/sata_nv.ko.xz
+root module: sata_via
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/sata_via.ko.xz
+root module: sata_sis
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/pata_sis.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/sata_sis.ko.xz
+root module: sata_uli
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/sata_uli.ko.xz
+root module: ata_piix
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/ata_piix.ko.xz
+root module: pata_marvell
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/libata.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/ata/pata_marvell.ko.xz
+root module: nvme
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_generic.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc-t10dif.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64-rocksoft.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/block/t10-pi.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/common/nvme-common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/host/nvme-core.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/nvme/host/nvme.ko.xz
+root module: sd_mod
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/crypto/crct10dif_generic.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc-t10dif.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/lib/crc64-rocksoft.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/block/t10-pi.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/sd_mod.ko.xz
+root module: sr_mod
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/cdrom/cdrom.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_common.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/scsi_mod.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/scsi/sr_mod.ko.xz
+root module: mmc_block
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/mmc/core/mmc_core.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/mmc/core/mmc_block.ko.xz
+root module: uhci_hcd
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-hcd.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-pci.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/uhci-hcd.ko.xz
+root module: ehci_hcd
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-hcd.ko.xz
+root module: ehci_pci
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-hcd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-pci.ko.xz
+root module: ohci_hcd
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ohci-hcd.ko.xz
+root module: ohci_pci
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ohci-hcd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-hcd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ehci-pci.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/ohci-pci.ko.xz
+root module: xhci_hcd
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-hcd.ko.xz
+root module: xhci_pci
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/base/firmware_loader/firmware_class.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-hcd.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci-renesas.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci.ko.xz
+root module: usbhid
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/usbhid/usbhid.ko.xz
+root module: hid_generic
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-generic.ko.xz
+root module: hid_lenovo
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/leds/led-class.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-lenovo.ko.xz
+root module: hid_apple
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/leds/led-class.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-apple.ko.xz
+root module: hid_roccat
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-roccat.ko.xz
+root module: hid_logitech_hidpp
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/usbhid/usbhid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-logitech-hidpp.ko.xz
+root module: hid_logitech_dj
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/usbhid/usbhid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-logitech-dj.ko.xz
+root module: hid_microsoft
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/ff-memless.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-microsoft.ko.xz
+root module: hid_cherry
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-cherry.ko.xz
+root module: hid_corsair
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/leds/led-class.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/usbhid/usbhid.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/hid/hid-corsair.ko.xz
+root module: pcips2
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/serio.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/pcips2.ko.xz
+root module: atkbd
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/vivaldi-fmap.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/serio.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/libps2.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/keyboard/atkbd.ko.xz
+root module: i8042
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/serio.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/input/serio/i8042.ko.xz
+root module: rtc_cmos
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/rtc/rtc-cmos.ko.xz
+root module: vboxsf
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/misc/vboxguest.ko.xz
+  copying dependency: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/misc/vboxsf.ko.xz
+root module: dm_mod
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/dax/dax.ko.xz
+  dependency already copied: /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/md/dm-mod.ko.xz
+firmware for /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci.ko.xz: renesas_usb_fw.mem
+lib/firmware -> /nix/store/gsnp88akxv7smrr7l003b2rxd0si0frz-linux-6.6.33-modules-shrunk/lib/firmware
+WARNING: missing firmware renesas_usb_fw.mem for module /nix/store/10pvywp893xzsdriy25lar6gcfjx56s2-linux-6.6.33-modules/lib/modules/6.6.33/kernel/drivers/usb/host/xhci-pci.ko.xz
+depmod: WARNING: could not open modules.builtin.modinfo at /nix/store/gsnp88akxv7smrr7l003b2rxd0si0frz-linux-6.6.33-modules-shrunk/lib/modules/6.6.33: No such file or directory
+building '/nix/store/bz4yb3fy6abqpm2iyyzn45px499zqqb8-initrd-linux-6.6.33.drv'...
+building '/nix/store/i3wj5y1zs5y93lj0qjxpq5m9204rl2hc-boot.json.drv'...
+building '/nix/store/hqgkgwy3grmkhsfm7fakpawwrvws5mpd-nixos-system-port-24.05.1503.752c634c09ce.drv'...
+stopping the following units: accounts-daemon.service, power-profiles-daemon.service, systemd-modules-load.service, systemd-udevd-control.socket, systemd-udevd-kernel.socket, systemd-udevd.service
+activating the configuration...
+setting up /etc...
+reloading user units for vertex...
+restarting sysinit-reactivation.target
+reloading the following units: dbus.service
+restarting the following units: polkit.service
+starting the following units: accounts-daemon.service, systemd-modules-load.service, systemd-udevd-control.socket, systemd-udevd-kernel.socket
+the following new units were started: libvirtd.service, system76-firmware-daemon.service, system76-power.service
