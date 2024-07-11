@@ -101,8 +101,10 @@
     zig
     zoxide
     linuxKernel.packages.linux_zen.system76
+    linuxKernel.packages.linux_6_9_hardened.system76
   ];
-
+  hardware.system76.enableAll = true;
+  services.power-profiles-daemon.enable = false;
   # Enable virtualization
   boot.kernelModules = ["kvm-amd" "kvm-intel"];
   virtualisation.libvirtd.enable = true;
