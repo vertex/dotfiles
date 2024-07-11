@@ -15,6 +15,8 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   boot.initrd.luks.devices."luks-7e599f34-fcdd-41ed-9d14-ea442636f0f3".device = "/dev/disk/by-uuid/7e599f34-fcdd-41ed-9d14-ea442636f0f3";
+  boot.initrd.luks.devices."luks-09ef180f-300c-45d0-99f8-80fe31bbc08f".device = "/dev/disk/by-uuid/09ef180f-300c-45d0-99f8-80fe31bbc08f";
+
   networking.hostName = "port"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 

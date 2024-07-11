@@ -10,7 +10,6 @@
   time.timeZone = "America/Phoenix";
   # Install firefox.
   programs.firefox.enable = true;
-  # t
   services.xserver = {
     enable = true;
     displayManager.gdm.enable = true;
