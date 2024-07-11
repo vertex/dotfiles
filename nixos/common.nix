@@ -4,15 +4,13 @@
 {
   config,
   pkgs,
-  #stdenv,
   ...
 }: {
   # Set your time zone.
   time.timeZone = "America/Phoenix";
-
   # Install firefox.
   programs.firefox.enable = true;
-
+  # t
   services.xserver = {
     enable = true;
     displayManager.gdm.enable = true;
@@ -78,7 +76,6 @@
     lazydocker
     librewolf
     libnotify
-    linuxKernel.kernels.linux_zen
     neovim
     nextcloud-client
     nixFlakes
@@ -103,6 +100,7 @@
     zellij
     zig
     zoxide
+    linuxKernel.packages.linux_zen.system76
   ];
 
   # Enable virtualization
