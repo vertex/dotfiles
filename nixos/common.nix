@@ -67,6 +67,7 @@
     gum
     gnome3.gnome-tweaks
     gnomeExtensions.just-perfection
+    gnomeExtensions.tactile
     gnumake
     git
     inconsolata-nerdfont
