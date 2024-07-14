@@ -6,7 +6,6 @@
   pkgs,
   ...
 }: {
-  # t
   # Set your time zone.
   time.timeZone = "America/Phoenix";
   # Install firefox.
