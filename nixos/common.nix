@@ -92,6 +92,7 @@
     typora
     ulauncher
     virtualbox
+    vscode
     vim
     vimPlugins.LazyVim
     vlc
