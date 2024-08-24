@@ -50,6 +50,7 @@
     alejandra
     bat
     btop
+    bun
     cascadia-code
     cl
     clang
