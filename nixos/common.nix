@@ -98,6 +98,7 @@
     vlc
     wget
     wmctrl
+    zed-editor
     zellij
     zig
     zoxide
