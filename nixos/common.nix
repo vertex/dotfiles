@@ -6,10 +6,6 @@
   pkgs,
   ...
 }: {
-  systemd.network.wait-online.enable = false;
-  boot.initrd.systemd.network.wait-online.enable = false;
-
-  #programs.nix-ld.enable = true;
   # Set your time zone.
   time.timeZone = "America/Phoenix";
   # Install firefox.
@@ -89,7 +85,7 @@
     nodejs_22
     meslo-lg # fonti
     meslo-lgs-nf
-    #postgresql
+    postgresql
     python3
     pinta
     plocate
@@ -126,4 +122,13 @@
   fonts.packages = with pkgs; [
     (nerdfonts.override {fonts = ["FiraCode" "DroidSansMono"];})
   ];
+
+  services.postgresql = {
+    enable = true;
+    ensureDatabases = ["phoenixlive"];
+    authentication = pkgs.lib.mkOverride 10 ''
+      #type database  DBuser  auth-method
+      local all       all     trust
+    '';
+  };
 }
