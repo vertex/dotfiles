@@ -6,6 +6,10 @@
   pkgs,
   ...
 }: {
+  systemd.network.wait-online.enable = false;
+  boot.initrd.systemd.network.wait-online.enable = false;
+
+  #programs.nix-ld.enable = true;
   # Set your time zone.
   time.timeZone = "America/Phoenix";
   # Install firefox.
@@ -34,7 +38,7 @@
       hitori # sudoku game
       atomix # puzzle game
     ]);
-
+  #boot.kernelPackages = pkgs.linuxPackages_latest;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   services.tailscale.enable = true;
@@ -77,12 +81,15 @@
     lazydocker
     librewolf
     libnotify
+    linuxKernel.packages.linux_hardened.system76
+    linuxKernel.packages.linux_zen.system76
     neovim
     nextcloud-client
     nixFlakes
     nodejs_22
     meslo-lg # fonti
     meslo-lgs-nf
+    #postgresql
     python3
     pinta
     plocate
@@ -103,8 +110,6 @@
     zellij
     zig
     zoxide
-    linuxKernel.packages.linux_zen.system76
-    linuxKernel.packages.linux_6_9_hardened.system76
   ];
   hardware.system76.enableAll = true;
   services.power-profiles-daemon.enable = false;
@@ -121,13 +126,4 @@
   fonts.packages = with pkgs; [
     (nerdfonts.override {fonts = ["FiraCode" "DroidSansMono"];})
   ];
-
-  /*
-    stdenv.mkDerivation = {
-    name = "custom-scripts";
-    src = ./.;
-    phases = ["installPhase"];
-    installPhase = "mkdir -p $out/bin; cp -r $src $out/bin";
-  };
-  */
 }
