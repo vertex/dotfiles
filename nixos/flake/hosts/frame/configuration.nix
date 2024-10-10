@@ -9,8 +9,8 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
-      ../modules/vim.nix
-    ];
+     ../../roles/desktop.nix   
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;

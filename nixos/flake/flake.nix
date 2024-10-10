@@ -10,7 +10,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: {
+  outputs = { self, nixpkgs, nix, ... }@inputs: {
     nixosConfigurations = {
 	frame = nixpkgs.lib.nixosSystem {
           specialArgs = {inherit inputs;};
